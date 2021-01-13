@@ -1,6 +1,6 @@
 # K-MEANS CLUSTERING
 Mo Ghani : https://github.com/Mo-Ghani/KMeans
-##############################################################################################################
+########################################################################################
 
 ## BACKGROUND
 The Python program "KMeans.py" provides a tool to cluster a given data set with N
