@@ -1,19 +1,16 @@
-K-MEANS CLUSTERING
+# K-MEANS CLUSTERING
 Mo Ghani : https://github.com/Mo-Ghani/KMeans
 #########################################################################################
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-BACKGROUND
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## BACKGROUND
 The Python program "KMeans.py" provides a tool to cluster a given data set with N
 datapoints, each with M features, into some integer k clusters. This is done via the 
-method of k-means clustering. As an example, I have used "KMeans.py" to create a digit
+method of k-means clustering. As an example, I have used "mnist.py" to create a digit
 recognition model, which is trained using the MNIST data set (which can be found at 
 http://yann.lecun.com/exdb/mnist/).
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-PYTHON VERSION AND REQUIRED PACKAGES
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+## PYTHON VERSION AND REQUIRED PACKAGES
 Python v3.7
 KMeans.py - NumPy v1.18.1, MatPlotLib v3.1.3, standard libraries(time, random, copy)
 mnist.py - Numpy v1.18.1, tensorflow v2.1.0
@@ -21,9 +18,7 @@ mnist.py - Numpy v1.18.1, tensorflow v2.1.0
 Here tensorflow is only used to easily obtain the MNIST data, and is not used to create
 any models.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-INSTRUCTIONS - KMeans.py
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## INSTRUCTIONS - KMeans.py
 This program contains all the machinery for performing the clustering.
 
 Initialising a model:
@@ -62,9 +57,7 @@ The function only has optional parameters, and takes the number of columns of th
 array (number of rows is inferred), and the dimensions of a single heatmap to be plotted.
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-INSTRUCTIONS - mnist.py
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## INSTRUCTIONS - mnist.py
 This program contains an example usage of KMeans.py to classify digits from the MNIST
 data set. 
 
