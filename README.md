@@ -22,9 +22,11 @@ any models.
 This program contains all the machinery for performing the clustering.
 
 Initialising a model:
+
 On initialisation, the model requires only the expected number of clusters k to be given.
 
 Initialising centroids:
+
 The method "centroidFinder" is called to initialise the cluster centroids. This function
 takes an N x M matrix which contains N datapoints with M features, and an optional
 initialisation method parameter. The default is "random", which will choose random
@@ -33,18 +35,21 @@ algorithm, which randomly chooses new centroids from a weighted probability dist
 based on the square of the distance to the nearest centroids.
 
 Training the model:
+
 The method "training" is called to train the model. This function takes an N x M matrix
 which contains N datapoints with M features, and an N-vector which contains the 
 corresponding labels for each datapoint. The function then attempts to converge the
 centroids to their optimal positions.
 
 Predicting labels:
+
 Once the model is trained, The method "predict" is called to to predict the label of
 unknown datapoints. The function takes an N x M matrix which contains N datapoints with
 M features, and returns a list of labels assigned to each datapoint in the
 input matrix.
 
 Evaluating the model:
+
 The method "evaluate" is called to find the accuracy of the model on a test set. The
 function takes an N x M matrix which contains N datapoints with M features, and an
 N-vector which contains the corresponding labels for each datapoint in the input matrix.
@@ -52,6 +57,7 @@ The function will print the model's accuracy as the ratio of the correctly predi
 labels and N.
 
 Plotting the centroids:
+
 The method "plotCentres" is called to plot an array containing heatmaps of every centroid. 
 The function only has optional parameters, and takes the number of columns of the heatmap
 array (number of rows is inferred), and the dimensions of a single heatmap to be plotted.
